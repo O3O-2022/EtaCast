@@ -3,7 +3,7 @@
 빌드 · 패키징 · 긴 작업의 **단계별 진행 막대와 남은 시간**을 브라우저로 보는 작은 진행판.
 표준 라이브러리만 쓴다 — 설치 없이 돌고, 게임 엔진이나 장르에 묶이지 않는다.
 
-![진행판 화면 (한국어)](docs/images/board-ko.jpg)
+![진행판 화면 (한국어)](docs/images/board-ko-hero.png)
 
 > **EtaCast** = ETA(남은 시간) + cast(여러 화면으로 내보냄). Python 3.10+ · MIT · Windows / macOS / Linux.
 
