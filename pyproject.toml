@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etacast"
+version = "0.1.0"
+description = "Build and long-job progress board: stage bars, time left, and a Claude (MCP) hookup. Standard library only."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Yogurt-Kr" }]
+keywords = ["build", "progress", "eta", "unreal", "unity", "godot", "mcp", "claude"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
+
+[project.scripts]
+etacast = "etacast.cli:main"
+
+[tool.setuptools]
+packages = ["etacast"]
